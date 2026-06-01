@@ -10,7 +10,7 @@ xs = np.linspace(-3, 3, 100)
 ys = np.exp(-xs**2)
 
 # use the fopraplot stylesheet
-plt.style.use("../fopraplot.mplstyle")
+plt.style.use("../fopraplot_no_latex.mplstyle")
 
 fig, ax = plt.subplots()
 ax.plot(xs, ys)
