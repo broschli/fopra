@@ -1,0 +1,594 @@
+INFO:root:2026-08-05 13:23:20.402990:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.connect ('COM3',)
+INFO:root:2026-08-05 13:23:20.503800:FUNCTION_RESULT = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.connect ('COM3',) = True
+INFO:root:2026-08-05 13:23:20.503800:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:23:20.503800:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.emission (False,)
+INFO:root:2026-08-05 13:23:20.613699:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.setPower (0,)
+INFO:root:2026-08-05 13:23:20.735089:FUNCTION_RESULT = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:23:20.810447:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.connect ('COM8',)
+INFO:root:2026-08-05 13:23:20.827238:FUNCTION_RESULT = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.connect ('COM8',) = True
+INFO:root:2026-08-05 13:23:20.827238:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:23:20.827238:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.setRFOutput (False,)
+INFO:root:2026-08-05 13:23:21.335513:FUNCTION_RESULT = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:23:21.375656:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:23:21.375656:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.setRFOutput (False,)
+INFO:root:2026-08-05 13:23:21.886717:FUNCTION_RESULT = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:23:21.886717:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.connect ('GPIB0::7::INSTR',)
+INFO:root:2026-08-05 13:23:22.088070:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.connect ('GPIB0::7::INSTR',) = True
+INFO:root:2026-08-05 13:23:22.088070:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setPhase (0.0,)
+INFO:root:2026-08-05 13:23:22.098143:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setLockInFreq (15299.877600979193,)
+INFO:root:2026-08-05 13:23:22.138149:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setRefSignalAmplitude (1,)
+INFO:root:2026-08-05 13:23:22.138149:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setSensitivity (5e-05,)
+INFO:root:2026-08-05 13:23:22.148136:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setTimeConstant (1.0,)
+INFO:root:2026-08-05 13:23:22.148136:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setModulation (True,)
+INFO:root:2026-08-05 13:23:22.148136:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setPowerLineNotchFilter (<POWER_LINE_NOTCH_FILTER.BOTH: 3>,)
+INFO:root:2026-08-05 13:23:22.167473:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 6150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 50), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 6150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 50), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 6150), ([6], 260), ([], 2000), ([6], 520), ([], 50), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 6150), ([6], 260), ([], 2000), ([6], 520), ([], 50), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:22.195994:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:22.196993:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:INFO: preparing device <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'> with programPulseSequenceAndRun_['[([1, 11], 5000), ([11], 2000), ([11], 6150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 50), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 6150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 50), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 6150), ([6], 260), ([], 2000), ([6], 520), ([], 50), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 6150), ([6], 260), ([], 2000), ([6], 520), ([], 50), ([6], 780), ([], 100)]']
+INFO:root:2026-08-05 13:23:22.199993:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setLockInFreq (15299.877600979193,)
+INFO:root:2026-08-05 13:23:22.928570:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setPhase (0.0,)
+INFO:root:INFO: preparing device <class 'datenkrake.devices.lockIn.sr830.SR830'> with setLockInFreq_['15299.877600979193']_setPhase_['0.0']
+INFO:root:2026-08-05 13:23:22.938571:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.setPower (0.0, False)
+INFO:root:2026-08-05 13:23:23.442846:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.setFrequency (2716000000.0,)
+INFO:root:2026-08-05 13:23:23.953261:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.setRFOutput (True,)
+INFO:root:INFO: preparing device <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'> with setPower_['0.0', 'False']_setFrequency_['2716000000.0']_setRFOutput_['True']
+INFO:root:2026-08-05 13:23:24.463773:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.emission (True,)
+INFO:root:2026-08-05 13:23:24.514089:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.setDACPower (8000,)
+INFO:root:INFO: preparing device <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'> with emission_['True']_setDACPower_['8000']
+INFO:root:2026-08-05 13:23:24.544087:FUNCTION_CALL = <class 'datenkrake.devices.virtual.counter.Counter'>.setCounter (0,)
+INFO:root:INFO: preparing device <class 'datenkrake.devices.virtual.counter.Counter'> with setCounter_['0']
+INFO:root:INFO: preparing device <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'> with 
+INFO:root:2026-08-05 13:23:29.654559:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 6150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 50), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 6150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 50), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 6150), ([6], 260), ([], 2000), ([6], 520), ([], 50), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 6150), ([6], 260), ([], 2000), ([6], 520), ([], 50), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:29.677329:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:29.677329:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:30.793733:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:30.803715:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = 9.31327e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:30.803715;50; ;9.31327e-08
+
+INFO:root:2026-08-05 13:23:30.813709:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 5950), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 250), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 5950), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 250), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 5950), ([6], 260), ([], 2000), ([6], 520), ([], 250), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 5950), ([6], 260), ([], 2000), ([6], 520), ([], 250), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:30.837095:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:30.837095:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:31.946394:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:31.956563:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = 6.33304e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:31.956563;250; ;6.33304e-08
+
+INFO:root:2026-08-05 13:23:31.956563:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 5750), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 450), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 5750), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 450), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 5750), ([6], 260), ([], 2000), ([6], 520), ([], 450), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 5750), ([6], 260), ([], 2000), ([6], 520), ([], 450), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:31.993794:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:31.994790:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:33.107013:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:33.116999:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = 0.0
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:33.116999;450; ;0.0
+
+INFO:root:2026-08-05 13:23:33.116999:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 5550), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 650), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 5550), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 650), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 5550), ([6], 260), ([], 2000), ([6], 520), ([], 650), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 5550), ([6], 260), ([], 2000), ([6], 520), ([], 650), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:33.144032:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:33.144032:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:34.256631:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:34.266163:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = 1.86266e-09
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:34.275169;650; ;1.86266e-09
+
+INFO:root:2026-08-05 13:23:34.275169:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 5350), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 850), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 5350), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 850), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 5350), ([6], 260), ([], 2000), ([6], 520), ([], 850), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 5350), ([6], 260), ([], 2000), ([6], 520), ([], 850), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:34.304029:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:34.304029:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:35.418662:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:35.428901:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -7.45064e-09
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:35.438901;850; ;-7.45064e-09
+
+INFO:root:2026-08-05 13:23:35.438901:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 5150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 1050), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 5150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 1050), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 5150), ([6], 260), ([], 2000), ([6], 520), ([], 1050), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 5150), ([6], 260), ([], 2000), ([6], 520), ([], 1050), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:35.461014:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:35.461014:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:36.568417:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:36.578644:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = 0.0
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:36.578644;1050; ;0.0
+
+INFO:root:2026-08-05 13:23:36.578644:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 4950), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 1250), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 4950), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 1250), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 4950), ([6], 260), ([], 2000), ([6], 520), ([], 1250), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 4950), ([6], 260), ([], 2000), ([6], 520), ([], 1250), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:36.611382:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:36.612384:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:37.725099:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:37.735187:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -1.86266e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:37.745212;1250; ;-1.86266e-08
+
+INFO:root:2026-08-05 13:23:37.745212:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 4750), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 1450), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 4750), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 1450), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 4750), ([6], 260), ([], 2000), ([6], 520), ([], 1450), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 4750), ([6], 260), ([], 2000), ([6], 520), ([], 1450), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:37.776080:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:37.776080:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:38.880710:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:38.890723:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = 2.98025e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:38.890723;1450; ;2.98025e-08
+
+INFO:root:2026-08-05 13:23:38.900725:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 4550), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 1650), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 4550), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 1650), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 4550), ([6], 260), ([], 2000), ([6], 520), ([], 1650), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 4550), ([6], 260), ([], 2000), ([6], 520), ([], 1650), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:38.931079:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:38.931079:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:40.044898:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:40.054817:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = 1.43425e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:40.054817;1650; ;1.43425e-07
+
+INFO:root:2026-08-05 13:23:40.064795:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 4350), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 1850), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 4350), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 1850), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 4350), ([6], 260), ([], 2000), ([6], 520), ([], 1850), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 4350), ([6], 260), ([], 2000), ([6], 520), ([], 1850), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:40.087116:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:40.087116:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:41.197181:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:41.207194:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = 2.64497e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:41.207194;1850; ;2.64497e-07
+
+INFO:root:2026-08-05 13:23:41.217194:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 4150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 2050), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 4150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 2050), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 4150), ([6], 260), ([], 2000), ([6], 520), ([], 2050), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 4150), ([6], 260), ([], 2000), ([6], 520), ([], 2050), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:41.246561:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:41.246561:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:42.357120:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:42.367121:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = 4.06058e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:42.367121;2050; ;4.06058e-07
+
+INFO:root:2026-08-05 13:23:42.377121:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 3950), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 2250), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 3950), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 2250), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 3950), ([6], 260), ([], 2000), ([6], 520), ([], 2250), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 3950), ([6], 260), ([], 2000), ([6], 520), ([], 2250), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:42.403811:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:42.403811:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:43.512422:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:43.522434:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = 4.60075e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:43.522434;2250; ;4.60075e-07
+
+INFO:root:2026-08-05 13:23:43.532435:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 3750), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 2450), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 3750), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 2450), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 3750), ([6], 260), ([], 2000), ([6], 520), ([], 2450), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 3750), ([6], 260), ([], 2000), ([6], 520), ([], 2450), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:43.549899:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:43.549899:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:44.662459:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:44.667199:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = 3.94883e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:44.677456;2450; ;3.94883e-07
+
+INFO:root:2026-08-05 13:23:44.677456:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 3550), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 2650), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 3550), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 2650), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 3550), ([6], 260), ([], 2000), ([6], 520), ([], 2650), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 3550), ([6], 260), ([], 2000), ([6], 520), ([], 2650), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:44.703860:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:44.703860:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:45.812806:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:45.822820:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = 2.77536e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:45.822820;2650; ;2.77536e-07
+
+INFO:root:2026-08-05 13:23:45.822820:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 3350), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 2850), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 3350), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 2850), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 3350), ([6], 260), ([], 2000), ([6], 520), ([], 2850), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 3350), ([6], 260), ([], 2000), ([6], 520), ([], 2850), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:45.849204:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:45.849204:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:46.968960:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:46.978969:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = 1.69502e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:46.978969;2850; ;1.69502e-07
+
+INFO:root:2026-08-05 13:23:46.988960:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 3150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 3050), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 3150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 3050), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 3150), ([6], 260), ([], 2000), ([6], 520), ([], 3050), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 3150), ([6], 260), ([], 2000), ([6], 520), ([], 3050), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:47.010615:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:47.010615:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:48.129106:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:48.139245:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = 3.72531e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:48.139245;3050; ;3.72531e-08
+
+INFO:root:2026-08-05 13:23:48.149118:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 2950), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 3250), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 2950), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 3250), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 2950), ([6], 260), ([], 2000), ([6], 520), ([], 3250), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 2950), ([6], 260), ([], 2000), ([6], 520), ([], 3250), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:48.165816:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:48.175823:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:49.292575:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:49.302536:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -4.8429e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:49.302536;3250; ;-4.8429e-08
+
+INFO:root:2026-08-05 13:23:49.302536:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 2750), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 3450), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 2750), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 3450), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 2750), ([6], 260), ([], 2000), ([6], 520), ([], 3450), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 2750), ([6], 260), ([], 2000), ([6], 520), ([], 3450), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:49.330786:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:49.330786:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:50.439146:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:50.449139:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.33304e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:50.449139;3450; ;-6.33304e-08
+
+INFO:root:2026-08-05 13:23:50.449139:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 2550), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 3650), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 2550), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 3650), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 2550), ([6], 260), ([], 2000), ([6], 520), ([], 3650), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 2550), ([6], 260), ([], 2000), ([6], 520), ([], 3650), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:50.487252:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:50.487252:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:51.600068:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:51.609981:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -8.56821e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:51.609981;3650; ;-8.56821e-08
+
+INFO:root:2026-08-05 13:23:51.619991:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 2350), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 3850), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 2350), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 3850), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 2350), ([6], 260), ([], 2000), ([6], 520), ([], 3850), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 2350), ([6], 260), ([], 2000), ([6], 520), ([], 3850), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:51.643944:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:51.643944:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:52.752230:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:52.765796:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -8.19568e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:52.765796;3850; ;-8.19568e-08
+
+INFO:root:2026-08-05 13:23:52.765796:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 2150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 4050), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 2150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 4050), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 2150), ([6], 260), ([], 2000), ([6], 520), ([], 4050), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 2150), ([6], 260), ([], 2000), ([6], 520), ([], 4050), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:52.794104:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:52.794104:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:53.900528:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:53.910674:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -5.58796e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:53.920631;4050; ;-5.58796e-08
+
+INFO:root:2026-08-05 13:23:53.920631:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 1950), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 4250), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 1950), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 4250), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 1950), ([6], 260), ([], 2000), ([6], 520), ([], 4250), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 1950), ([6], 260), ([], 2000), ([6], 520), ([], 4250), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:53.943817:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:53.943817:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:55.055580:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:55.065558:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -7.63689e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:55.065558;4250; ;-7.63689e-08
+
+INFO:root:2026-08-05 13:23:55.065558:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 1750), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 4450), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 1750), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 4450), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 1750), ([6], 260), ([], 2000), ([6], 520), ([], 4450), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 1750), ([6], 260), ([], 2000), ([6], 520), ([], 4450), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:55.095989:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:55.095989:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:56.216279:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:56.226221:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -9.31327e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:56.226221;4450; ;-9.31327e-08
+
+INFO:root:2026-08-05 13:23:56.236227:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 1550), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 4650), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 1550), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 4650), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 1550), ([6], 260), ([], 2000), ([6], 520), ([], 4650), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 1550), ([6], 260), ([], 2000), ([6], 520), ([], 4650), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:56.260568:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:56.260568:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:57.369528:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:57.379670:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -7.45063e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:57.379670;4650; ;-7.45063e-08
+
+INFO:root:2026-08-05 13:23:57.389611:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 1350), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 4850), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 1350), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 4850), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 1350), ([6], 260), ([], 2000), ([6], 520), ([], 4850), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 1350), ([6], 260), ([], 2000), ([6], 520), ([], 4850), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:57.410834:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:57.410834:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:58.534212:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:58.544329:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.5193e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:58.544329;4850; ;-6.5193e-08
+
+INFO:root:2026-08-05 13:23:58.554213:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 1150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 5050), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 1150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 5050), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 1150), ([6], 260), ([], 2000), ([6], 520), ([], 5050), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 1150), ([6], 260), ([], 2000), ([6], 520), ([], 5050), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:58.577421:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:58.577421:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:23:59.698836:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:23:59.708739:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -5.58796e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:23:59.708739;5050; ;-5.58796e-08
+
+INFO:root:2026-08-05 13:23:59.718738:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 950), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 5250), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 950), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 5250), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 950), ([6], 260), ([], 2000), ([6], 520), ([], 5250), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 950), ([6], 260), ([], 2000), ([6], 520), ([], 5250), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:23:59.744843:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:23:59.746842:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:24:00.855873:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:24:00.869384:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.5193e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:24:00.869384;5250; ;-6.5193e-08
+
+INFO:root:2026-08-05 13:24:00.869384:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 750), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 5450), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 750), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 5450), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 750), ([6], 260), ([], 2000), ([6], 520), ([], 5450), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 750), ([6], 260), ([], 2000), ([6], 520), ([], 5450), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:24:00.904019:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:24:00.904019:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:24:02.014479:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:24:02.024456:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.70557e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:24:02.024456;5450; ;-6.70557e-08
+
+INFO:root:2026-08-05 13:24:02.034457:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 550), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 5650), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 550), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 5650), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 550), ([6], 260), ([], 2000), ([6], 520), ([], 5650), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 550), ([6], 260), ([], 2000), ([6], 520), ([], 5650), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:24:02.060743:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:24:02.060743:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:24:03.169209:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:24:03.180337:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.70557e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:24:03.180337;5650; ;-6.70557e-08
+
+INFO:root:2026-08-05 13:24:03.190335:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 350), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 5850), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 350), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 5850), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 350), ([6], 260), ([], 2000), ([6], 520), ([], 5850), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 350), ([6], 260), ([], 2000), ([6], 520), ([], 5850), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:24:03.210950:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:24:03.210950:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:24:04.327156:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:24:04.332784:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -5.40169e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:24:04.332784;5850; ;-5.40169e-08
+
+INFO:root:2026-08-05 13:24:04.342828:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 6050), ([6, 11], 260), ([11], 620), ([1, 11], 5000), ([11], 2000), ([11], 150), ([6, 11], 260), ([11], 2000), ([6, 11], 520), ([11], 6050), ([6, 11], 260), ([11], 620), ([1], 5000), ([], 2000), ([], 150), ([6], 260), ([], 2000), ([6], 520), ([], 6050), ([6], 780), ([], 100), ([1], 5000), ([], 2000), ([], 150), ([6], 260), ([], 2000), ([6], 520), ([], 6050), ([6], 780), ([], 100)],)
+INFO:root:2026-08-05 13:24:04.370925:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:24:04.370925:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:24:05.485732:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:24:05.495740:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -3.72531e-08
+INFO:root:WRITING TO FILE: 2026-08-05 13:24:05.495740;6050; ;-3.72531e-08
+
+INFO:root:2026-08-05 13:24:05.505732:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:24:05.505732:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.stopPulseSequence ()
+INFO:root:2026-08-05 13:24:05.505732:FUNCTION_RESULT = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:24:05.505732:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:24:05.505732:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:24:05.505732:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:24:05.505732:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.setRFOutput (False,)
+INFO:root:2026-08-05 13:24:06.013450:FUNCTION_RESULT = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:24:06.013450:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:24:06.013450:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.emission (False,)
+INFO:root:2026-08-05 13:24:06.076438:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.setPower (0,)
+INFO:root:2026-08-05 13:24:06.196495:FUNCTION_RESULT = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:24:06.196495:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:24:06.196495:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.stopPulseSequence ()
+INFO:root:2026-08-05 13:24:06.196495:FUNCTION_RESULT = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:24:06.250107:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.disconnect ()
+INFO:root:2026-08-05 13:24:06.250107:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:24:06.250107:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.stopPulseSequence ()
+INFO:root:2026-08-05 13:24:06.252094:FUNCTION_RESULT = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:24:06.252094:FUNCTION_RESULT = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.disconnect () = False
+INFO:root:2026-08-05 13:24:06.252094:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.disconnect ()
+INFO:root:2026-08-05 13:24:06.252094:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:24:06.252094:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.stopPulseSequence ()
+INFO:root:2026-08-05 13:24:06.253095:FUNCTION_RESULT = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:24:06.253095:FUNCTION_RESULT = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.disconnect () = False
+INFO:root:2026-08-05 13:24:06.253095:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.disconnect ()
+INFO:root:2026-08-05 13:24:06.253095:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:24:06.253095:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:24:06.387190:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.disconnect () = True
+INFO:root:2026-08-05 13:24:06.387190:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.disconnect ()
+INFO:root:2026-08-05 13:24:06.387190:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:24:06.387190:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.setRFOutput (False,)
+INFO:root:2026-08-05 13:24:06.888373:FUNCTION_RESULT = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:24:06.999398:FUNCTION_RESULT = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.disconnect () = True
+INFO:root:2026-08-05 13:24:06.999398:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.disconnect ()
+INFO:root:2026-08-05 13:24:06.999398:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:24:06.999398:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.emission (False,)
+INFO:root:2026-08-05 13:24:07.019402:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.setPower (0,)
+INFO:root:2026-08-05 13:24:07.144708:FUNCTION_RESULT = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:24:07.144708:FUNCTION_RESULT = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.disconnect () = True
+INFO:root:2026-08-05 13:24:51.173800:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.connect ('COM3',)
+INFO:root:2026-08-05 13:24:51.253717:FUNCTION_RESULT = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.connect ('COM3',) = True
+INFO:root:2026-08-05 13:24:51.253717:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:24:51.253717:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.emission (False,)
+INFO:root:2026-08-05 13:24:51.363462:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.setPower (0,)
+INFO:root:2026-08-05 13:24:51.485211:FUNCTION_RESULT = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:24:51.495046:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.connect ('COM8',)
+INFO:root:2026-08-05 13:24:51.520875:FUNCTION_RESULT = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.connect ('COM8',) = True
+INFO:root:2026-08-05 13:24:51.520875:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:24:51.520875:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.setRFOutput (False,)
+INFO:root:2026-08-05 13:24:52.030809:FUNCTION_RESULT = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:24:52.030809:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:24:52.030809:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.setRFOutput (False,)
+INFO:root:2026-08-05 13:24:52.537490:FUNCTION_RESULT = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:24:52.537490:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.connect ('GPIB0::7::INSTR',)
+INFO:root:2026-08-05 13:24:52.677514:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.connect ('GPIB0::7::INSTR',) = True
+INFO:root:2026-08-05 13:24:52.677514:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setPhase (0.0,)
+INFO:root:2026-08-05 13:24:52.687511:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setLockInFreq (15271.838729383018,)
+INFO:root:2026-08-05 13:24:52.717945:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setRefSignalAmplitude (1,)
+INFO:root:2026-08-05 13:24:52.727944:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setSensitivity (5e-05,)
+INFO:root:2026-08-05 13:24:52.727944:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setTimeConstant (1.0,)
+INFO:root:2026-08-05 13:24:52.727944:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setModulation (True,)
+INFO:root:2026-08-05 13:24:52.738754:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setPowerLineNotchFilter (<POWER_LINE_NOTCH_FILTER.BOTH: 3>,)
+INFO:root:2026-08-05 13:24:52.749923:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 6150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 50), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 6150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 50), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 6150), ([6], 268), ([], 2000), ([6], 535), ([], 50), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 6150), ([6], 268), ([], 2000), ([6], 535), ([], 50), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:24:52.773028:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:24:52.773028:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:INFO: preparing device <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'> with programPulseSequenceAndRun_['[([1, 11], 5000), ([11], 2000), ([11], 6150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 50), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 6150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 50), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 6150), ([6], 268), ([], 2000), ([6], 535), ([], 50), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 6150), ([6], 268), ([], 2000), ([6], 535), ([], 50), ([6], 802), ([], 100)]']
+INFO:root:2026-08-05 13:24:52.776975:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setLockInFreq (15271.838729383018,)
+INFO:root:2026-08-05 13:24:53.391712:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.setPhase (0.0,)
+INFO:root:INFO: preparing device <class 'datenkrake.devices.lockIn.sr830.SR830'> with setLockInFreq_['15271.838729383018']_setPhase_['0.0']
+INFO:root:2026-08-05 13:24:53.391712:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.setPower (0.0, False)
+INFO:root:2026-08-05 13:24:53.908235:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.setFrequency (2716000000.0,)
+INFO:root:2026-08-05 13:24:54.418539:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.setRFOutput (True,)
+INFO:root:INFO: preparing device <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'> with setPower_['0.0', 'False']_setFrequency_['2716000000.0']_setRFOutput_['True']
+INFO:root:2026-08-05 13:24:54.931422:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.emission (True,)
+INFO:root:2026-08-05 13:24:54.961324:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.setDACPower (8000,)
+INFO:root:INFO: preparing device <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'> with emission_['True']_setDACPower_['8000']
+INFO:root:2026-08-05 13:24:54.981322:FUNCTION_CALL = <class 'datenkrake.devices.virtual.counter.Counter'>.setCounter (0,)
+INFO:root:INFO: preparing device <class 'datenkrake.devices.virtual.counter.Counter'> with setCounter_['0']
+INFO:root:INFO: preparing device <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'> with 
+INFO:root:2026-08-05 13:25:00.090857:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 6150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 50), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 6150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 50), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 6150), ([6], 268), ([], 2000), ([6], 535), ([], 50), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 6150), ([6], 268), ([], 2000), ([6], 535), ([], 50), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:00.113140:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:00.114616:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:01.219480:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:01.229853:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -5.58797e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:01.229853;50; ;-5.58797e-07
+
+INFO:root:2026-08-05 13:25:01.239862:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 5950), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 250), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 5950), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 250), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 5950), ([6], 268), ([], 2000), ([6], 535), ([], 250), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 5950), ([6], 268), ([], 2000), ([6], 535), ([], 250), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:01.260713:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:01.260713:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:02.370665:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:02.384415:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -5.73698e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:02.384415;250; ;-5.73698e-07
+
+INFO:root:2026-08-05 13:25:02.384415:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 5750), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 450), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 5750), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 450), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 5750), ([6], 268), ([], 2000), ([6], 535), ([], 450), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 5750), ([6], 268), ([], 2000), ([6], 535), ([], 450), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:02.411273:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:02.411273:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:03.527330:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:03.537426:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -5.69973e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:03.547329;450; ;-5.69973e-07
+
+INFO:root:2026-08-05 13:25:03.547329:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 5550), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 650), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 5550), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 650), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 5550), ([6], 268), ([], 2000), ([6], 535), ([], 650), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 5550), ([6], 268), ([], 2000), ([6], 535), ([], 650), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:03.577265:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:03.577265:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:04.681506:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:04.691613:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -5.71836e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:04.691613;650; ;-5.71836e-07
+
+INFO:root:2026-08-05 13:25:04.701517:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 5350), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 850), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 5350), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 850), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 5350), ([6], 268), ([], 2000), ([6], 535), ([], 850), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 5350), ([6], 268), ([], 2000), ([6], 535), ([], 850), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:04.727995:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:04.727995:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:05.843533:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:05.856584:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.16539e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:05.856584;850; ;-6.16539e-07
+
+INFO:root:2026-08-05 13:25:05.856584:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 5150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 1050), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 5150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 1050), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 5150), ([6], 268), ([], 2000), ([6], 535), ([], 1050), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 5150), ([6], 268), ([], 2000), ([6], 535), ([], 1050), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:05.887758:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:05.887758:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:06.995753:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:07.005873:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.3144e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:07.005873;1050; ;-6.3144e-07
+
+INFO:root:2026-08-05 13:25:07.015981:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 4950), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 1250), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 4950), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 1250), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 4950), ([6], 268), ([], 2000), ([6], 535), ([], 1250), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 4950), ([6], 268), ([], 2000), ([6], 535), ([], 1250), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:07.032701:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:07.032701:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:08.150867:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:08.160800:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.50067e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:08.160800;1250; ;-6.50067e-07
+
+INFO:root:2026-08-05 13:25:08.170765:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 4750), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 1450), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 4750), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 1450), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 4750), ([6], 268), ([], 2000), ([6], 535), ([], 1450), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 4750), ([6], 268), ([], 2000), ([6], 535), ([], 1450), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:08.194763:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:08.194763:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:09.302890:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:09.312920:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -5.71836e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:09.312920;1450; ;-5.71836e-07
+
+INFO:root:2026-08-05 13:25:09.322917:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 4550), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 1650), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 4550), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 1650), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 4550), ([6], 268), ([], 2000), ([6], 535), ([], 1650), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 4550), ([6], 268), ([], 2000), ([6], 535), ([], 1650), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:09.345468:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:09.345468:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:10.452534:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:10.462547:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -4.65663e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:10.462547;1650; ;-4.65663e-07
+
+INFO:root:2026-08-05 13:25:10.462547:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 4350), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 1850), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 4350), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 1850), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 4350), ([6], 268), ([], 2000), ([6], 535), ([], 1850), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 4350), ([6], 268), ([], 2000), ([6], 535), ([], 1850), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:10.489865:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:10.493525:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:11.606243:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:11.616368:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -3.20377e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:11.616368;1850; ;-3.20377e-07
+
+INFO:root:2026-08-05 13:25:11.616368:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 4150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 2050), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 4150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 2050), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 4150), ([6], 268), ([], 2000), ([6], 535), ([], 2050), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 4150), ([6], 268), ([], 2000), ([6], 535), ([], 2050), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:11.644461:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:11.644461:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:12.754048:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:12.768043:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -2.47734e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:12.768043;2050; ;-2.47734e-07
+
+INFO:root:2026-08-05 13:25:12.771056:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 3950), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 2250), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 3950), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 2250), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 3950), ([6], 268), ([], 2000), ([6], 535), ([], 2250), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 3950), ([6], 268), ([], 2000), ([6], 535), ([], 2250), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:12.793988:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:12.794989:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:13.905206:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:13.915203:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -2.44008e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:13.915203;2250; ;-2.44008e-07
+
+INFO:root:2026-08-05 13:25:13.915203:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 3750), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 2450), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 3750), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 2450), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 3750), ([6], 268), ([], 2000), ([6], 535), ([], 2450), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 3750), ([6], 268), ([], 2000), ([6], 535), ([], 2450), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:13.944426:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:13.944426:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:15.058273:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:15.068407:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -3.05476e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:15.078287;2450; ;-3.05476e-07
+
+INFO:root:2026-08-05 13:25:15.078287:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 3550), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 2650), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 3550), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 2650), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 3550), ([6], 268), ([], 2000), ([6], 535), ([], 2650), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 3550), ([6], 268), ([], 2000), ([6], 535), ([], 2650), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:15.098934:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:15.098934:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:16.211954:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:16.221993:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -3.81844e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:16.221993;2650; ;-3.81844e-07
+
+INFO:root:2026-08-05 13:25:16.231969:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 3350), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 2850), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 3350), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 2850), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 3350), ([6], 268), ([], 2000), ([6], 535), ([], 2850), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 3350), ([6], 268), ([], 2000), ([6], 535), ([], 2850), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:16.261210:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:16.271213:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:17.377747:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:17.384670:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -4.52625e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:17.394759;2850; ;-4.52625e-07
+
+INFO:root:2026-08-05 13:25:17.394759:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 3150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 3050), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 3150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 3050), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 3150), ([6], 268), ([], 2000), ([6], 535), ([], 3050), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 3150), ([6], 268), ([], 2000), ([6], 535), ([], 3050), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:17.426727:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:17.426727:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:18.541037:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:18.551037:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -5.43896e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:18.551037;3050; ;-5.43896e-07
+
+INFO:root:2026-08-05 13:25:18.561015:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 2950), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 3250), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 2950), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 3250), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 2950), ([6], 268), ([], 2000), ([6], 535), ([], 3250), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 2950), ([6], 268), ([], 2000), ([6], 535), ([], 3250), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:18.593475:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:18.593990:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:19.699792:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:19.712338:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -5.86737e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:19.712338;3250; ;-5.86737e-07
+
+INFO:root:2026-08-05 13:25:19.712338:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 2750), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 3450), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 2750), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 3450), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 2750), ([6], 268), ([], 2000), ([6], 535), ([], 3450), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 2750), ([6], 268), ([], 2000), ([6], 535), ([], 3450), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:19.749524:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:19.749524:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:20.863947:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:20.873950:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.07226e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:20.873950;3450; ;-6.07226e-07
+
+INFO:root:2026-08-05 13:25:20.886403:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 2550), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 3650), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 2550), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 3650), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 2550), ([6], 268), ([], 2000), ([6], 535), ([], 3650), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 2550), ([6], 268), ([], 2000), ([6], 535), ([], 3650), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:20.911540:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:20.911540:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:22.015661:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:22.025794:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.53792e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:22.025794;3650; ;-6.53792e-07
+
+INFO:root:2026-08-05 13:25:22.025794:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 2350), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 3850), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 2350), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 3850), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 2350), ([6], 268), ([], 2000), ([6], 535), ([], 3850), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 2350), ([6], 268), ([], 2000), ([6], 535), ([], 3850), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:22.054426:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:22.054426:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:23.164166:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:23.174340:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.48204e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:23.174340;3850; ;-6.48204e-07
+
+INFO:root:2026-08-05 13:25:23.184259:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 2150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 4050), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 2150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 4050), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 2150), ([6], 268), ([], 2000), ([6], 535), ([], 4050), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 2150), ([6], 268), ([], 2000), ([6], 535), ([], 4050), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:23.211494:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:23.211494:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:24.325744:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:24.335649:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.76144e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:24.335649;4050; ;-6.76144e-07
+
+INFO:root:2026-08-05 13:25:24.345661:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 1950), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 4250), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 1950), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 4250), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 1950), ([6], 268), ([], 2000), ([6], 535), ([], 4250), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 1950), ([6], 268), ([], 2000), ([6], 535), ([], 4250), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:24.379094:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:24.379094:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:25.493233:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:25.503233:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -7.02221e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:25.503233;4250; ;-7.02221e-07
+
+INFO:root:2026-08-05 13:25:25.513326:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 1750), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 4450), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 1750), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 4450), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 1750), ([6], 268), ([], 2000), ([6], 535), ([], 4450), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 1750), ([6], 268), ([], 2000), ([6], 535), ([], 4450), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:25.543484:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:25.543484:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:26.652436:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:26.662507:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.63105e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:26.662507;4450; ;-6.63105e-07
+
+INFO:root:2026-08-05 13:25:26.672386:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 1550), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 4650), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 1550), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 4650), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 1550), ([6], 268), ([], 2000), ([6], 535), ([], 4650), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 1550), ([6], 268), ([], 2000), ([6], 535), ([], 4650), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:26.704612:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:26.704612:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:27.818289:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:27.828193:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.81732e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:27.828193;4650; ;-6.81732e-07
+
+INFO:root:2026-08-05 13:25:27.838193:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 1350), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 4850), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 1350), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 4850), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 1350), ([6], 268), ([], 2000), ([6], 535), ([], 4850), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 1350), ([6], 268), ([], 2000), ([6], 535), ([], 4850), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:27.871382:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:27.871382:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:28.980446:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:28.988688:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.8732e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:28.988688;4850; ;-6.8732e-07
+
+INFO:root:2026-08-05 13:25:28.998711:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 1150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 5050), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 1150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 5050), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 1150), ([6], 268), ([], 2000), ([6], 535), ([], 5050), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 1150), ([6], 268), ([], 2000), ([6], 535), ([], 5050), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:29.025092:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:29.027091:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:30.131614:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:30.141651:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.89182e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:30.141651;5050; ;-6.89182e-07
+
+INFO:root:2026-08-05 13:25:30.141651:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 950), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 5250), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 950), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 5250), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 950), ([6], 268), ([], 2000), ([6], 535), ([], 5250), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 950), ([6], 268), ([], 2000), ([6], 535), ([], 5250), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:30.178214:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:30.178214:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:31.287357:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:31.297361:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.76144e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:31.297361;5250; ;-6.76144e-07
+
+INFO:root:2026-08-05 13:25:31.297361:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 750), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 5450), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 750), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 5450), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 750), ([6], 268), ([], 2000), ([6], 535), ([], 5450), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 750), ([6], 268), ([], 2000), ([6], 535), ([], 5450), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:31.330992:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:31.331986:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:32.438021:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:32.448168:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.2399e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:32.448168;5450; ;-6.2399e-07
+
+INFO:root:2026-08-05 13:25:32.448168:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 550), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 5650), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 550), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 5650), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 550), ([6], 268), ([], 2000), ([6], 535), ([], 5650), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 550), ([6], 268), ([], 2000), ([6], 535), ([], 5650), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:32.478193:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:32.478193:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:33.597585:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:33.607510:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.40754e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:33.607510;5650; ;-6.40754e-07
+
+INFO:root:2026-08-05 13:25:33.607510:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 350), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 5850), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 350), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 5850), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 350), ([6], 268), ([], 2000), ([6], 535), ([], 5850), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 350), ([6], 268), ([], 2000), ([6], 535), ([], 5850), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:33.644737:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:33.644737:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:34.750496:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:34.760509:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.40754e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:34.760509;5850; ;-6.40754e-07
+
+INFO:root:2026-08-05 13:25:34.770507:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.programPulseSequence ([([1, 11], 5000), ([11], 2000), ([11], 150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 6050), ([6, 11], 268), ([11], 635), ([1, 11], 5000), ([11], 2000), ([11], 150), ([6, 11], 268), ([11], 2000), ([6, 11], 535), ([11], 6050), ([6, 11], 268), ([11], 635), ([1], 5000), ([], 2000), ([], 150), ([6], 268), ([], 2000), ([6], 535), ([], 6050), ([6], 802), ([], 100), ([1], 5000), ([], 2000), ([], 150), ([6], 268), ([], 2000), ([6], 535), ([], 6050), ([6], 802), ([], 100)],)
+INFO:root:2026-08-05 13:25:34.794962:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.startPulseSequence ()
+INFO:root:2026-08-05 13:25:34.794962:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.reset ()
+INFO:root:2026-08-05 13:25:35.909496:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,)
+INFO:root:2026-08-05 13:25:35.919520:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.readOutput (<OUTPUT_TYPE.Y: 2>,) = -6.48204e-07
+INFO:root:WRITING TO FILE: 2026-08-05 13:25:35.919520;6050; ;-6.48204e-07
+
+INFO:root:2026-08-05 13:25:35.930411:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:25:35.930411:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.stopPulseSequence ()
+INFO:root:2026-08-05 13:25:35.932126:FUNCTION_RESULT = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:25:35.932126:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:25:35.933132:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:25:35.933132:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:25:35.933132:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.setRFOutput (False,)
+INFO:root:2026-08-05 13:25:36.440734:FUNCTION_RESULT = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:25:36.440734:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:25:36.440734:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.emission (False,)
+INFO:root:2026-08-05 13:25:36.520752:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.setPower (0,)
+INFO:root:2026-08-05 13:25:36.639184:FUNCTION_RESULT = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:25:36.639184:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:25:36.639184:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.stopPulseSequence ()
+INFO:root:2026-08-05 13:25:36.639184:FUNCTION_RESULT = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:25:36.649185:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.disconnect ()
+INFO:root:2026-08-05 13:25:36.649185:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:25:36.649185:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.stopPulseSequence ()
+INFO:root:2026-08-05 13:25:36.649185:FUNCTION_RESULT = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:25:36.649185:FUNCTION_RESULT = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.disconnect () = False
+INFO:root:2026-08-05 13:25:36.649185:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.disconnect ()
+INFO:root:2026-08-05 13:25:36.649185:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:25:36.649185:FUNCTION_CALL = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.stopPulseSequence ()
+INFO:root:2026-08-05 13:25:36.649185:FUNCTION_RESULT = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:25:36.649185:FUNCTION_RESULT = <class 'datenkrake.devices.pulsing.pulsecard.Pulsecard'>.disconnect () = False
+INFO:root:2026-08-05 13:25:36.649185:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.disconnect ()
+INFO:root:2026-08-05 13:25:36.649185:FUNCTION_CALL = <class 'datenkrake.devices.lockIn.sr830.SR830'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:25:36.649185:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:25:36.777768:FUNCTION_RESULT = <class 'datenkrake.devices.lockIn.sr830.SR830'>.disconnect () = True
+INFO:root:2026-08-05 13:25:36.777768:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.disconnect ()
+INFO:root:2026-08-05 13:25:36.777768:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:25:36.778498:FUNCTION_CALL = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.setRFOutput (False,)
+INFO:root:2026-08-05 13:25:37.279603:FUNCTION_RESULT = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:25:37.390139:FUNCTION_RESULT = <class 'datenkrake.devices.microwave.ds_instruments.DS_SG6000PRO'>.disconnect () = True
+INFO:root:2026-08-05 13:25:37.390139:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.disconnect ()
+INFO:root:2026-08-05 13:25:37.390139:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.bringDeviceIntoSaveState ()
+INFO:root:2026-08-05 13:25:37.390139:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.emission (False,)
+INFO:root:2026-08-05 13:25:37.465918:FUNCTION_CALL = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.setPower (0,)
+INFO:root:2026-08-05 13:25:37.591978:FUNCTION_RESULT = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.bringDeviceIntoSaveState () = True
+INFO:root:2026-08-05 13:25:37.592998:FUNCTION_RESULT = <class 'datenkrake.devices.laser.integrated_optics.matchbox.Matchbox'>.disconnect () = True
